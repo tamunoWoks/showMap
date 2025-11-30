@@ -41,3 +41,6 @@ The utility automatically detects clipboard content and opens the corresponding 
 3.  Clean and URL-encode the address.
 4.  Construct a search URL for OpenStreetMap.
 5.  Launch the browser with the generated link.
+
+### Full Script
+[showMap.py](https://github.com/tamunoWoks/showMap/blob/main/showMap.py)
