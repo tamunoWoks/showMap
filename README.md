@@ -10,3 +10,15 @@ A streamlined Python command-line tool designed to open an address directly in y
 -   Opens results on **OpenStreetMap**.
 -   Structured, readable, and maintainable code.
 -   Basic error handling for missing or invalid input.
+
+### Prerequisites
+#### **Python Version:**
+-   Python 3.7 or higher.
+
+#### **Required Packages:**
+-   `pyperclip`
+
+Install dependencies with:
+``` bash
+pip install pyperclip
+```
