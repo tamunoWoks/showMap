@@ -22,3 +22,15 @@ Install dependencies with:
 ``` bash
 pip install pyperclip
 ```
+
+### Usage
+#### **1. Provide an Address via Command Line**
+``` bash
+python showMap.py 1600 Amphitheatre Parkway Mountain View
+```
+#### **2. Use Your Clipboard**
+Copy an address to your clipboard and run:
+``` bash
+python showMap.py
+```
+The utility automatically detects clipboard content and opens the corresponding map.
