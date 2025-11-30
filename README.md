@@ -34,3 +34,10 @@ Copy an address to your clipboard and run:
 python showMap.py
 ```
 The utility automatically detects clipboard content and opens the corresponding map.
+
+### Script Logic Summary
+1.  Check for command-line input.
+2.  If unavailable, read from clipboard.
+3.  Clean and URL-encode the address.
+4.  Construct a search URL for OpenStreetMap.
+5.  Launch the browser with the generated link.
